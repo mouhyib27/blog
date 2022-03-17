@@ -6,10 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
+  today = new Date().toLocaleDateString();
 
   constructor() { }
 
   ngOnInit(): void {
+    console.log(this.today)
   }
 
 }

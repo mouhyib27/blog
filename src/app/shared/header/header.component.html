@@ -1,1 +1,24 @@
-<p>header works!</p>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img alt="logo" src="assets/images/logo-mc.png" [style.width.px]="120">
+    </a>
+    <button class="navbar-toggler" type="button" (click)="isCollapsed = !isCollapsed" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-expanded="false" aria-controls="navbarSupportedContent" [attr.aria-expanded]="!isCollapsed" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" [ngbCollapse]="isCollapsed" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Articles</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Podcasts</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">A propos</a>
+        </li>
+      </ul>
+      <button pButton pRipple type="button" icon="pi pi-search" class="p-button-rounded p-button-text"></button>
+    </div>
+  </div>
+</nav>
