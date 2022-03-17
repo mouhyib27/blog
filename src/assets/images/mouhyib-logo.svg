@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1535" height="1063" viewBox="0 0 1535 1063">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #afc5d8;
+      }
+
+      .cls-2 {
+        fill: #424e5c;
+        fill-rule: evenodd;
+      }
+
+      .cls-3, .cls-4 {
+        font-size: 50px;
+        fill: #bae0bd;
+        font-family: "Graphik Compact";
+      }
+
+      .cls-3 {
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <rect class="cls-1" x="454" y="255" width="627" height="553"/>
+  <path id="Rectangle_1_copie" data-name="Rectangle 1 copie" class="cls-2" d="M490.494,298.187H1044.51V786.813H490.494V298.187Z"/>
+  <text id="_mouhyib_" data-name="$ mouhyib_" class="cls-3" transform="translate(655.984 565.475) scale(1.409)">$ mouhyib_</text>
+  <text id="_" data-name="&gt;" class="cls-4" transform="translate(556.659 606.243) scale(4.109)">&gt;</text>
+</svg>
